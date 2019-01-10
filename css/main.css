@@ -1,20 +1,65 @@
 html {
   box-sizing: border-box;
   font-family: sans-serif;
-  color: #e2e2e2;
+  background-color: #e2e2e2;
+  color: #000;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-a  {
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
   font-size: 1.125rem;
   color: #fff;
   background-color: #555;
-  border-radius: 8px;
-  border-width: 3px;
+  border-radius: 4px;
   text-decoration: none;
-  padding: .5em;
+  padding: 0.5em 0.75em;
   display: inline-block;
+}
+
+.img-flex {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+section {
+  padding-left: 1rem;
+}
+
+@media only screen and (min-width: 25em) {
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+
+
+}
+
+@media only screen and (min-width: 90em) {
+
+
+
 }
