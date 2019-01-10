@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #e2e2e2;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a  {
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #555;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+  padding: .5em;
+  display: inline-block;
+}
