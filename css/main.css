@@ -33,7 +33,7 @@ p {
 }
 
 a {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #fff;
   background-color: #555;
   border-radius: 4px;
@@ -74,15 +74,29 @@ a {
 
   section {
     display: inline-block;
-  }
-
-  .content {
-    text-align: left;
+    display: flex;
   }
 
   h1 {
     padding: 0;
     margin-top: 2rem;
+    padding-bottom: .1em;
+  }
+
+  p {
+    padding-bottom: .4em;
+  }
+
+  .content {
+    max-width: 45%;
+    text-align: left;
+    margin-left: .2em;
+  }
+
+  .image {
+    max-width: 55%;
+    padding-left: 1rem;
+    padding-top: 2.8em;
   }
 
 }
