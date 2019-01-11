@@ -118,6 +118,11 @@ a {
 
   .content {
     vertical-align: middle;
+    max-width: 60%;
+  }
+
+  .img {
+    max-width: 40%;
   }
 
   .btn {
