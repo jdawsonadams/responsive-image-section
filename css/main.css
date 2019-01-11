@@ -38,7 +38,7 @@ a {
   background-color: #555;
   border-radius: 4px;
   text-decoration: none;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   display: inline-block;
 }
 
@@ -103,11 +103,25 @@ a {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
+  html {
+    font-size: 130%;
+  }
 
+  .content {
+    vertical-align: middle;
+  }
+
+  .btn {
+    text-align: center;
+  }
 
 }
